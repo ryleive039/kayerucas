@@ -1,0 +1,59 @@
+body {
+    font-family: 'Georgia', serif;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/026/782/458/small_2x/open-holy-bible-book-with-glowing-lights-in-church-photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #3b3b3b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .rosary-design {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+  }
+
+  .verse {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #3b3b3b;
+  }
+
+  .reference {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7b7b7b;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #706fd3;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background: #4750c0;
+  }
+
+  .cross {
+    font-size: 4rem;
+    color: #706fd3;
+    margin-bottom: 20px;
+  }
